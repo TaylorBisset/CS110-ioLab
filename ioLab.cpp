@@ -7,6 +7,8 @@ using namespace std;
 
 int main()
 {
+    // ask name
+    cout << "What is your name?\n";
     // storage space for the name you input
     string name;
     // get the name from the keyboard
@@ -16,7 +18,14 @@ int main()
     endl will send a return character
     to move to a new line
     */
-    cout << "Hello " << name << endl;
+    cout << "\nHello, " << name << endl;
+    
+    cout << "What is your favorite color?\n";
+    cin >> name;
+    cout << "\nOh! I like " << name << ", too!\n";
+
+    // add the system pause so you can see the output
+    system("pause");
 
     return 0;
 }
