@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    // storage space for the name you input
+    string name;
+    // get the name from the keyboard
+    // store it in a name
+    cin >> name;
+    /*
+    endl will send a return character
+    to move to a new line
+    */
+    cout << "Hello " << name << endl;
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
