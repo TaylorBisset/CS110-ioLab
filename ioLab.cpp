@@ -26,6 +26,8 @@ int main()
 
     // add the system pause so you can see the output
     system("pause");
+        // for linux, use:
+        // system("read -p 'Press Enter to continue...' var");
 
     return 0;
 }
